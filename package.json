@@ -15,8 +15,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "engine":{
+  "engine": {
     "npm": "6.4.1",
     "node": "8.11.1"
-  } 
+  }
 }
