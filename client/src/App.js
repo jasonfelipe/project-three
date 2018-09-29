@@ -28,9 +28,7 @@ export default class App extends React.Component{
     _scan = () => {
         this.setState({scanning: !this.state.scanning});
     }
-
     _onDetected = (result) => {
-
         if(this.state.results.length < 5) {
           this.setState
           console.log('RESULT:', result);
